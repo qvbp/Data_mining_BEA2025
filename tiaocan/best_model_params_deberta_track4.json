@@ -1,0 +1,16 @@
+{
+  "deberta": {
+    "Actionability": {
+      "best_epoch": 17,
+      "best_val_f1": 0.6666575121061529,
+      "params": {
+        "dropout": 0.1,
+        "batch_size": 8,
+        "lr": 3e-05,
+        "expert_hidden_size": 768,
+        "num_rnn_layers": 2,
+        "weight_decay": 0.01
+      }
+    }
+  }
+}

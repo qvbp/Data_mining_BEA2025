@@ -1,0 +1,28 @@
+{
+  "roberta": {
+    "Actionability": {
+      "best_epoch": 14,
+      "best_val_f1": 0.6614884526061432,
+      "params": {
+        "dropout": 0.2,
+        "batch_size": 32,
+        "lr": 1e-05,
+        "expert_hidden_size": 768,
+        "num_rnn_layers": 2,
+        "weight_decay": 0.01
+      }
+    },
+    "Providing_Guidance": {
+      "best_epoch": 22,
+      "best_val_f1": 0.6081081399049285,
+      "params": {
+        "dropout": 0.2,
+        "batch_size": 32,
+        "lr": 1e-05,
+        "expert_hidden_size": 256,
+        "num_rnn_layers": 2,
+        "weight_decay": 0.1
+      }
+    }
+  }
+}

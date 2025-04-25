@@ -1,0 +1,42 @@
+{
+  "roberta": {
+    "Actionability": {
+      "best_epoch": 21,
+      "best_val_f1": 0.6957005515339786,
+      "params": {
+        "dropout": 0.1,
+        "batch_size": 32,
+        "lr": 1e-05,
+        "expert_hidden_size": 512,
+        "num_rnn_layers": 1,
+        "weight_decay": 0
+      }
+    },
+    "Providing_Guidance": {
+      "best_epoch": 20,
+      "best_val_f1": 0.6070431337438134,
+      "params": {
+        "dropout": 0.1,
+        "batch_size": 32,
+        "lr": 2e-05,
+        "expert_hidden_size": 512,
+        "num_rnn_layers": 2,
+        "weight_decay": 0
+      }
+    }
+  },
+  "deberta": {
+    "Actionability": {
+      "best_epoch": 10,
+      "best_val_f1": 0.5351243077648168,
+      "params": {
+        "dropout": 0.3,
+        "batch_size": 8,
+        "lr": 2e-05,
+        "expert_hidden_size": 512,
+        "num_rnn_layers": 3,
+        "weight_decay": 0.1
+      }
+    }
+  }
+}

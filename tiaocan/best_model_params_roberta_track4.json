@@ -1,0 +1,16 @@
+{
+  "roberta": {
+    "Actionability": {
+      "best_epoch": 16,
+      "best_val_f1": 0.6619708305345162,
+      "params": {
+        "dropout": 0.3,
+        "batch_size": 16,
+        "lr": 3e-05,
+        "expert_hidden_size": 512,
+        "num_rnn_layers": 1,
+        "weight_decay": 0.01
+      }
+    }
+  }
+}
