@@ -1,0 +1,20 @@
+[
+    {
+        "conversation_history": "Student: yes \n Tutor: So, we wan to start with the first 2 digits. \n Tutor: What is the value of 5 * 14?\n Student: 75",
+        "response": "I think you meant to say 70, since 5 times 14 is 70, not 75 - let's take a look at how we got that together.",
+        "Mistake_Identification": "Yes",
+        "Mistake_Location": "Yes",
+        "Providing_Guidance": "No",
+        "Actionability": "No",
+        "sent_id": 0
+    },
+    {
+        "conversation_history": "Tutor: Hi, could you please provide a step-by-step solution for the question below? The question is: Kamil wants to renovate his kitchen at home. For this purpose, he hired two professionals who work for him 6 hours a day for 7 days. What does it cost Kamil to hire these professionals if one of them is paid $15 per hour of work? \n Student: The two professionals work together for 6 x 2 = 12 hours a day.\nThey work for a total of 12 x 7 = 84 hours in 7 days.\nSo, the first professional earns a total of 15 x 84 = $1260 for the entire work.\nSince there are two professionals, Kamil pays a total of 1260 x 2 = $2520 for their entire work.\n 2520 \n Tutor: could you please walk me through your solution? \n Student: Sure. I started by calculating the total number of hours worked by both professionals. I multiplied 6 hours by 2 which gives us 12 hours a day. Then I multiplied 12 hours by 7 days which gives us 84 hours in total. Then I calculated the amount earned by the first professional for the entire work which is 15 x 84 = $1260. Finally since there are two professionals I multiplied 1260 by 2 which gives us a total of $2520 for their entire work. \n Tutor: But you have already accounted for both of them in the first step that is 12 hours per day. Why are you multiplying again in the last step? \n Student: Oh I see. I was multiplying the total amount earned by the first professional for the entire work which is 15 x 84 = $1260 by 2 to get the total amount paid by Kamil for both professionals. So the total amount paid by Kamil is $1260 x 2 = $2520.",
+        "response": "You're on the right track, but remember that you already calculated the total hours worked by both professionals in the first step, so you don't need to multiply the first professional's earnings by 2. ",
+        "Mistake_Identification": "Yes",
+        "Mistake_Location": "Yes",
+        "Providing_Guidance": "Yes",
+        "Actionability": "Yes",
+        "sent_id": 1
+    }
+]
